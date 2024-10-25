@@ -17,6 +17,7 @@ Route::get('tiktok', [ApiController::class, 'tiktok']);
 Route::get('test', [ApiController::class, 'test']);
 
 
+
 Route::middleware([ApiMiddleware::class])->group(function () {
 
 });
